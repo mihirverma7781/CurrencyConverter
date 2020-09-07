@@ -55,7 +55,7 @@ setAmountInFromCurrency(false)
     <>
     <div className="box">
       <h1><text className="name">Cu</text>rrency</h1>
-      <h1 className="head"><text className="colored big">Co</text><text className="big">nvertor</text></h1>
+      <h1 className="head"><text className="colored big">Co</text><text className="big">nverter</text></h1>
       <CurrencyRow
        currencyOptions={currencyOptions}
        selectedCurrency={fromCurrency}
@@ -69,7 +69,7 @@ setAmountInFromCurrency(false)
       <CurrencyRow 
       currencyOptions={currencyOptions}
       selectedCurrency={toCurrency}
-      onChangeCurrency={e=> setFromCurrency(e.target.value)}
+      onChangeCurrency={e=> setToCurrency(e.target.value)}
       amount={toAmount}
       onChangeAmount={handleToAmountChange}
 
