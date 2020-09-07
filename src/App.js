@@ -53,6 +53,7 @@ setAmountInFromCurrency(false)
   }
   return (
     <>
+  
     <div className="box">
       <h1><text className="name">Cu</text>rrency</h1>
       <h1 className="head"><text className="colored big">Co</text><text className="big">nverter</text></h1>
@@ -75,6 +76,9 @@ setAmountInFromCurrency(false)
 
       />
       </div>
+      <footer>
+        <p>Converter Conv.<br/>  &#169;ReactApp</p>
+      </footer>
     </>
   );
 }
